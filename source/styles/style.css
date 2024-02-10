@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+  background-color: black;
+  font-family: Roboto;
+}
+
+#navbarNav a{
+  color: aliceblue;
+}
+
+.navbar-brand img{
+  width: 30px;
+  filter: drop-shadow(5px 5px 10px #f600fa);
+}
+
+
+#navbarNav :hover{
+  color: rgb(143, 143, 143);
+}
+
+button.btn.btn-secondary.btn-sm{
+  display: none;
+}
+
+.text-banner{
+  color: aliceblue;
+  margin-left: 20px;
+  filter: drop-shadow(5px 5px 10px #ff00d0);
+}
+
+.logo-text{
+  margin-top: 45px;
+}
+
+.card{
+  margin-top: 10px;
+}
+.one{
+  margin-bottom: 20px;
+  background-color: black;
+}
+.tyt:hover{
+  animation: myAnim 2s ease 0s infinite normal none;
+}
+
+.image-home{
+  background-color: black;
+}
+
+.contact{
+  color: aliceblue;
+  filter: drop-shadow(5px 5px 10px #ff00d0);
+}
+
+.text-contact{
+  color: antiquewhite;
+}
+.contact-items{
+  padding-right: 20px;
+}
+
+.welcome{
+  color: aliceblue;
+  margin-left: 20px;
+  filter: drop-shadow(5px 5px 10px #ff00d0);
+}
+
+.video video{
+  width: 100%;
+  height: 50vh;
+}
+
+.wow{
+  color: aliceblue;
+  margin-left: 20px;
+  filter: drop-shadow(5px 5px 10px #ff00d0);
+}
+
+.wow-text{
+  color: aliceblue;
+}
+
+footer{
+  background-color: rgb(26, 26, 26);
+}
+
+.footer-text{
+  color: aliceblue;
+}
+
+.footer-img{
+  width: 55px;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0.7;
+		transform: scale(0.8);
+	}
+}
+
+@media(max-width: 992px){
+  button.btn.btn-secondary.btn-sm{
+    display: block;
+  }
+}
+
+@media(max-width: 768px){
+  .contact{
+    margin-left: 20px;
+  }
+}
+
+@media(max-width: 998px){
+  .text-contact{
+    margin-left: 13px;
+  }
+}
